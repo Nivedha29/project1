@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('img1.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.login-box {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    max-width: 90%;
+}
+
+.login-box h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.login-box p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+}
+
+.options a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.btn-signin {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.btn-google {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
